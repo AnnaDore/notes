@@ -1,6 +1,7 @@
 n = int(input())
 # dictionary comprehension
 name_numb = [input().split() for _ in range(n)]
+#making a dictionary
 phoneBook = {k: v for k,v in name_numb}
 # let's try to find the numbers
 while(1):
